@@ -14,18 +14,16 @@ const projects = [
   {
     title: 'Elena DApp',
     description: 'Gestión de Smart Contracts – Sistema distribuido con Web3, Solidity, MongoDB y Microservicios',
-    link: 'https://buycontract.netlify.app/',
     icon: SiSolidity
   },
   {
-    title: 'Booking App',
+    title: 'Booking Web App',
     description: 'Replication',
-    link: 'https://github.com/',
     icon: FiSmartphone,
   },
   {
     title: 'To-Do App',
-    description: 'Replication FreeCodeCamp',
+    description: 'Replication',
     link: 'https://github.com/',
     icon: FiCode,
   },
@@ -38,13 +36,11 @@ const projects = [
   {
     title: 'Radio Shared',
     description: 'Web Application – Beta',
-    link: 'https://github.com/',
     icon: FiGlobe,
   },
   {
     title: 'Backend Developer',
     description: 'Node.js + Angular + Firebase – Peer Companion / Teaching Assistant',
-    link: '#',
     icon: FiDatabase,
   },
 ];
