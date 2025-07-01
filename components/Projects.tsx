@@ -39,7 +39,7 @@ const projects = [
     icon: FiGlobe,
   },
   {
-    title: 'Backend Developer',
+    title: 'Educational platforms',
     description: 'Node.js + Angular + Firebase – Peer Companion / Teaching Assistant',
     icon: FiDatabase,
   },
