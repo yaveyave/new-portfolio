@@ -6,8 +6,10 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="h-screen flex flex-col justify-end items-end text-right pr-10 pb-24"
+      className="h-screen w-full overflow-x-hidden px-4 pb-24 flex flex-col justify-end items-end text-right sm:pr-10"
     >
+
+
       <motion.h1
         className="text-4xl md:text-6xl font-bold mb-4 max-w-3xl"
         initial={{ opacity: 0, y: 50 }}
