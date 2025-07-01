@@ -13,7 +13,7 @@ import { SiSolidity } from 'react-icons/si';
 const projects = [
   {
     title: 'Elena DApp',
-    description: 'Gestión de Smart Contracts – Sistema distribuido con Web3, Solidity, MongoDB y Microservicios',
+    description: 'Smart Contract Management – ​​Distributed System with Web3, Solidity, MongoDB, and Microservices',
     icon: SiSolidity
   },
   {
