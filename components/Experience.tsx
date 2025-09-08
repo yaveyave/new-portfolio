@@ -17,7 +17,7 @@ const experience = [
   {
     role: 'QA Engineer',
     details:
-      'QA Automation for booking platforms (Ruby on Rails, Selenium, Firebase Test Lab, E2E Testing, PyTorch, Cypress, Postman, Bash Scripting).',
+      'QA Automation for booking platforms (K6, Apache JMeter, Serenity, Appium, Firebase Test Lab, E2E Testing, PyTorch, Cypress, Postman, Bash Scripting).',
     icon: FiCheckCircle
   },
   {
