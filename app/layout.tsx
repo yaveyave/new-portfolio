@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   metadataBase: new URL("https://oscaryave.dev"),
-  title: "Oscar D. Yanez Vega | Backend & Web3 Full Stack Developer",
+  title: "Backend & Web3 Full Stack Developer",
   description:
     "Portfolio of Oscar D. Yanez Vega — Backend, Full Stack and Web3 Developer specialized in microservices, cloud, QA automation and blockchain technologies.",
   keywords: [
