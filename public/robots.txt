@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oscaryave.dev/sitemap.xml

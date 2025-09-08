@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Elena DApp',
     description: 'Smart Contract Management – ​​Distributed System with Web3, Solidity, MongoDB, and Microservices',
-    link: 'https://elena-client.vercel.app/',
+    link: 'https://https://www.elenacontract.com',
     icon: SiSolidity
   },
   {

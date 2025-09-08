@@ -2,11 +2,53 @@ import { ThemeToggle } from '@/components/ThemeToggle';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { DynamicHeader } from '@/components/DynamicHeader';
 import '@/styles/globals.css';
+import { Analytics } from "@vercel/analytics/react";
+
 
 export const metadata = {
-  title: 'Backend & Web3 Developer',
-  description: 'Portfolio of Oscar Daniel Yanez Vega — Backend, Full Stack, Web3, Blockchain Developer. Specialized in microservices, cloud, QA automation and blockchain technologies.',
+  metadataBase: new URL("https://oscaryave.dev"),
+  title: "Oscar D. Yanez Vega | Backend & Web3 Full Stack Developer",
+  description:
+    "Portfolio of Oscar D. Yanez Vega — Backend, Full Stack and Web3 Developer specialized in microservices, cloud, QA automation and blockchain technologies.",
+  keywords: [
+    "Backend Developer",
+    "Full Stack Developer",
+    "Web3",
+    "Blockchain",
+    "Ethereum",
+    "Smart Contracts",
+    "Node.js",
+    "Microservices",
+    "Cloud",
+    "QA Automation",
+  ],
+  openGraph: {
+    title: "Oscar D. Yanez Vega | Backend & Web3 Full Stack Developer",
+    description:
+      "Backend, Full Stack and Web3 Developer with expertise in microservices, cloud, QA automation and blockchain.",
+    url: "https://oscaryave.dev",
+    siteName: "Oscar Yanez Portfolio",
+    images: [
+      {
+        url: "/preview.png", // make a 1200x630 image for social preview
+        width: 1200,
+        height: 630,
+        alt: "Oscar D. Yanez Vega - Backend & Web3 Developer",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Oscar D. Yanez Vega | Backend & Web3 Full Stack Developer",
+    description:
+      "Portfolio of Oscar Yanez — Backend, Full Stack and Web3 Developer. Microservices, Cloud, QA Automation, Blockchain.",
+    images: ["/preview.png"],
+  },
+  authors: [{ name: "Oscar D. Yanez Vega", url: "https://oscaryave.dev" }],
 };
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -26,7 +68,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <ScrollToTop />
+
+        {/* Web Analytics */}
+        <Analytics />
       </body>
     </html>
   );
 }
+
