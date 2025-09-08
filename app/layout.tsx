@@ -23,7 +23,7 @@ export const metadata = {
     "QA Automation",
   ],
   openGraph: {
-    title: "Oscar D. Yanez Vega | Backend & Web3 Full Stack Developer",
+    title: "Backend & Web3 Full Stack Developer",
     description:
       "Backend, Full Stack and Web3 Developer with expertise in microservices, cloud, QA automation and blockchain.",
     url: "https://oscaryave.dev",
